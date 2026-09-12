@@ -24,6 +24,7 @@ int main(void){
         const int &note = notes[i];
         std::cout << note << std::endl;
     }
+    //----------------------------------------------------------------------
     int *pointer_notes = find_number(notes,7);
     *pointer_notes = 77;
     std::cout << pointer_notes << std::endl;
