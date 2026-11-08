@@ -9,7 +9,7 @@ class CompteBancaire{   //PascalCase premier lettre en maj et camelCase le premi
             this->prenom = prenom;
             this->solde = money;
         }*/
-        CompteBancaire(const std::string& prenom , const double& money):
+        CompteBancaire(const std::string& prenom , const double& money):                                
         prenom(prenom), solde(money){}
         CompteBancaire(const std::string& prenom): CompteBancaire(prenom,0){
         }
